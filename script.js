@@ -54,7 +54,7 @@
       .then(data => {
         answer.innerHTML = `Dodano nowy post o ID = ${data.id}`;
       })
-    
+
   })
 
 })();
