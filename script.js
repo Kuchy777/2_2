@@ -15,7 +15,7 @@
   })
 
   cw1.addEventListener("click", function () {
-    //TODO
+    
   })
 
   cw2.addEventListener("click", function () {
