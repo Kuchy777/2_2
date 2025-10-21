@@ -15,6 +15,7 @@
   })
 
   cw1.addEventListener("click", function() {
+    answer.innerHTML = 'Loading...'
     fetch('https://jsonplaceholder.typicode.com/posts ')
       .then(response => response.json())
       .then(array => {
@@ -27,7 +28,7 @@
   })
 
   cw2.addEventListener("click", function() {
-    //TODO
+    //todo
   })
 
   cw3.addEventListener("click", function() {
