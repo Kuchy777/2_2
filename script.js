@@ -24,6 +24,7 @@
           html += `<h3>${element.title}</h3> <div>${element.body}</div>`;
         })
         answer.innerHTML = html;
+        console.log(array)
       })
   })
 
@@ -34,6 +35,7 @@
       .then(post => {
         html = `<h3>${post.title}</h3> <div>${post.body}</div>`
         answer.innerHTML = html;
+        console.log(post)
       })
   })
 
@@ -53,6 +55,7 @@
       .then(response => response.json())
       .then(data => {
         answer.innerHTML = `Dodano nowy post o ID = ${data.id}`;
+        console.log(data)
       })
 
   })
